@@ -30,6 +30,7 @@ def get_folders_sizes(parent_directory):
         output += f'{dir[0]:<20}{human_read_format(dir[1]):>15}\n'
     return output
 
+
 print('Welcome to Cleanup Helper v0.1!')
 print('Want to get the 10 largest subdirectories in directory?')
 print('Just put in a path to that directory:')
